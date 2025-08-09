@@ -35,7 +35,7 @@ Les méthodes traditionnelles de détection reposent principalement sur l’util
 ## 🏗️ Architecture du Projet :
 Ce projet permet de détecter les fuites de gaz en utilisant des algorithmes de vision par ordinateur, intégrés dans un système complet avec un tableau de bord (dashboard) dédié. Celui-ci permet de superviser et de contrôler plusieurs caméras thermiques déployées dans un environnement industriel. Le système reçoit en temps réel les flux vidéo provenant de toutes les caméras installées sur le site. Ces flux sont ensuite traités par le modèle de vision par ordinateur, qui effectue l'inférence pour détecter d'éventuelles fuites de gaz. Lorsqu'une fuite est identifiée, le modèle renvoie les coordonnées des boîtes englobantes ainsi que les scores de confiance vers la caméra concernée. Par ailleurs, une version de la vidéo détectée est automatiquement sauvegardée localement sur le PC, assurant ainsi une traçabilité des incidents.
 
-![Screenshot (1)](https://github.com/EmbeddiaInnovX/ComputerVision_Based_AQS/blob/main/Project_Arch.jpg)  
+![Screenshot (1)](https://github.com/Ismailnajib/Gas_Leak_Detection/blob/main/Project_Arch%20(1).jpg)  
 
 
 ---
