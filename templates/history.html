@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Detection History</title>
+
+  <link rel="stylesheet" href="/static/css/bootstrap.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/static/css/style.css" />
+  <link rel="stylesheet" href="/static/css/responsive.css" />
+
+  <style>
+    /* Styles same as your original */
+    body { font-family: "Poppins", sans-serif; margin: 0; background-color: #f8f9fa; }
+    .history-container { width: 90%; max-width: 900px; background: #fff; padding: 30px; border-radius: 8px;
+      box-shadow: 0 0 8px rgba(0,0,0,0.1); margin: 120px auto 40px; }
+    table { width: 100%; border-collapse: collapse; }
+    thead th { background-color: #4b208c; color: #fff; padding: 12px; text-align: left; }
+    tbody td { padding: 12px; border-bottom: 1px solid #ddd; }
+    tbody tr:hover { background-color: #f9f9f9; }
+    .sidebar { height: 100%; width: 220px; position: fixed; top: 53px; left: 0; background-color: #4b208c; padding-top: 20px; z-index: 1000; }
+    .sidebar a { padding: 15px 20px; display: flex; align-items: center; text-decoration: none; font-size: 15px; color: #ddd; transition: 0.3s; }
+    .sidebar a i { margin-right: 12px; font-size: 18px; min-width: 20px; text-align: center; color: #ccc; }
+    .sidebar a:hover, .sidebar a.active { background-color: #343a40; color: #fff; }
+    header.header_section { background-color: #4b208c; padding: 5px 0; position: fixed; width: 100%; top: 0; z-index: 999; }
+    header .navbar-brand span { color: #fff; font-size: 20px; font-weight: bold; }
+    @media (max-width: 768px) {
+      .sidebar { width: 0; overflow-x: hidden; }
+      .history-container { margin: 120px auto 40px; }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header class="header_section" style="height: 53px;">
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg custom_nav-container">
+        <a class="navbar-brand" href="/home">
+          <span>GLD System</span>
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="sidebar">
+    <a href="/gas_detection"><i class="fa fa-video-camera"></i> Camera Feed</a>
+    <a href="/camera_manage"><i class="fa fa-cogs"></i> Manage Cameras</a>
+    <a href="/history" class="active"><i class="fa fa-history"></i> History</a>
+  </div>
+
+  <div class="history-container">
+    <h2>Detection History</h2>
+
+    {% if history_list %}
+    <table>
+      <thead>
+        <tr>
+          <th>Camera Name</th>
+          <th>Location</th>
+          <th>Detection Time</th>
+          <th>Video Clip</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for event in history_list %}
+          <tr>
+            <td>{{ event.camera }}</td>
+            <td>{{ event.location }}</td>
+            <td>{{ event.time }}</td>
+            <td>
+              {% if event.video_path %}
+                <a href="{{ event.video_path | replace('./static', '/static') }}" target="_blank">View Video</a>
+              {% else %}
+                N/A
+              {% endif %}
+            </td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    {% else %}
+      <p>No detection history found.</p>
+    {% endif %}
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,878 @@
+[
+    {
+        "camera": "Camera 1",
+        "location": "Main Lab",
+        "time": "13-07-2025 16:19:35",
+        "video_path": "./static/saved_videos/detection_20250713_161935.mp4"
+    },
+    {
+        "camera": "Camera 1",
+        "location": "Main Lab",
+        "time": "13-07-2025 16:20:32",
+        "video_path": "./static/saved_videos/detection_20250713_162032.mp4"
+    },
+    {
+        "camera": "Camera 1",
+        "location": "Main Lab",
+        "time": "13-07-2025 16:28:42",
+        "video_path": "./static/saved_videos/Camera 1_20250713_162841.mp4"
+    },
+    {
+        "camera": "Camera 1",
+        "location": "Main Lab",
+        "time": "13-07-2025 16:29:49",
+        "video_path": "./static/saved_videos/Camera 1_20250713_162949.mp4"
+    },
+    {
+        "camera": "Camera 2",
+        "location": "Entrance Hall",
+        "time": "13-07-2025 16:46:31",
+        "video_path": "./static/saved_videos/Camera 2_20250713_164631.mp4"
+    },
+    {
+        "camera": "Camera 1",
+        "location": "Main Lab",
+        "time": "13-07-2025 16:47:28",
+        "video_path": "./static/saved_videos/Camera 1_20250713_164728.mp4"
+    },
+    {
+        "camera": "Camera 2",
+        "location": "Entrance Hall",
+        "time": "13-07-2025 16:50:18",
+        "video_path": "./static/saved_videos/Camera 2_20250713_165017.mp4"
+    },
+    {
+        "camera": "Camera 2",
+        "location": "Entrance Hall",
+        "time": "13-07-2025 16:52:30",
+        "video_path": "./static/saved_videos/Camera 2_20250713_165228.mp4"
+    },
+    {
+        "camera": "Camera 2",
+        "location": "Entrance Hall",
+        "time": "13-07-2025 16:55:33",
+        "video_path": "./static/saved_videos/Camera 2_20250713_165532.mp4"
+    },
+    {
+        "camera": "Camera 1",
+        "location": "Main Lab",
+        "time": "13-07-2025 16:55:48",
+        "video_path": "./static/saved_videos/Camera 1_20250713_165548.mp4"
+    },
+    {
+        "camera": "Camera 2",
+        "location": "Entrance Hall",
+        "time": "13-07-2025 16:57:02",
+        "video_path": "./static/saved_videos/Camera 2_20250713_165701.mp4"
+    },
+    {
+        "camera": "Camera 2",
+        "location": "Entrance Hall",
+        "time": "13-07-2025 17:02:18",
+        "video_path": "./static/saved_videos/Camera 2_20250713_170217.mp4"
+    },
+    {
+        "camera": "Camera 1",
+        "location": "Main Lab",
+        "time": "13-07-2025 17:02:59",
+        "video_path": "./static/saved_videos/Camera 1_20250713_170259.mp4"
+    },
+    {
+        "camera": "Camera 1",
+        "location": "Main Lab",
+        "time": "13-07-2025 17:06:52",
+        "video_path": "./static/saved_videos/Camera 1_20250713_170652.mp4"
+    },
+    {
+        "camera": "Camera 2",
+        "location": "Entrance Hall",
+        "time": "13-07-2025 17:11:36",
+        "video_path": "./static/saved_videos/Camera 2_20250713_171134.mp4"
+    },
+    {
+        "camera": "Camera 2",
+        "location": "Entrance Hall",
+        "time": "13-07-2025 17:12:08",
+        "video_path": "./static/saved_videos/Camera 2_20250713_171207.mp4"
+    },
+    {
+        "camera": "Camera 1",
+        "location": "Main Lab",
+        "time": "13-07-2025 17:15:59",
+        "video_path": "./static/saved_videos/Camera 1_20250713_171559.mp4"
+    },
+    {
+        "camera": "Camera 2",
+        "location": "Entrance Hall",
+        "time": "13-07-2025 17:16:31",
+        "video_path": "./static/saved_videos/Camera 2_20250713_171629.mp4"
+    },
+    {
+        "camera": "Camera 2",
+        "location": "Entrance Hall",
+        "time": "13-07-2025 17:18:29",
+        "video_path": "./static/saved_videos/Camera 2_20250713_171827.mp4"
+    },
+    {
+        "camera": "Camera 2",
+        "location": "Entrance Hall",
+        "time": "13-07-2025 17:19:12",
+        "video_path": "./static/saved_videos/Camera 2_20250713_171910.mp4"
+    },
+    {
+        "camera": "Camera 2",
+        "location": "Entrance Hall",
+        "time": "13-07-2025 17:19:52",
+        "video_path": "./static/saved_videos/Camera 2_20250713_171950.mp4"
+    },
+    {
+        "camera": "Camera 2",
+        "location": "Entrance Hall",
+        "time": "13-07-2025 17:20:34",
+        "video_path": "./static/saved_videos/Camera 2_20250713_172032.mp4"
+    },
+    {
+        "camera": "Camera 2",
+        "location": "Entrance Hall",
+        "time": "13-07-2025 17:22:46",
+        "video_path": "./static/saved_videos/Camera 2_20250713_172245.mp4"
+    },
+    {
+        "camera": "Camera 2",
+        "location": "Entrance Hall",
+        "time": "13-07-2025 17:23:21",
+        "video_path": "./static/saved_videos/Camera 2_20250713_172319.mp4"
+    },
+    {
+        "camera": "Camera 2",
+        "location": "Entrance Hall",
+        "time": "13-07-2025 17:24:13",
+        "video_path": "./static/saved_videos/Camera 2_20250713_172411.mp4"
+    },
+    {
+        "camera": "Camera 1",
+        "location": "Main Lab",
+        "time": "13-07-2025 17:25:35",
+        "video_path": "./static/saved_videos/Camera 1_20250713_172535.mp4"
+    },
+    {
+        "camera": "Camera 1",
+        "location": "Main Lab",
+        "time": "13-07-2025 17:25:52",
+        "video_path": "./static/saved_videos/Camera 1_20250713_172552.mp4"
+    },
+    {
+        "camera": "Camera 2",
+        "location": "Entrance Hall",
+        "time": "13-07-2025 17:26:06",
+        "video_path": "./static/saved_videos/Camera 2_20250713_172604.mp4"
+    },
+    {
+        "camera": "Camera 2",
+        "location": "Entrance Hall",
+        "time": "13-07-2025 17:26:56",
+        "video_path": "./static/saved_videos/Camera 2_20250713_172654.mp4"
+    },
+    {
+        "camera": "Camera 2",
+        "location": "Entrance Hall",
+        "time": "13-07-2025 17:27:35",
+        "video_path": "./static/saved_videos/Camera 2_20250713_172734.mp4"
+    },
+    {
+        "camera": "Camera 2",
+        "location": "Entrance Hall",
+        "time": "13-07-2025 17:29:46",
+        "video_path": "./static/saved_videos/Camera 2_20250713_172944.mp4"
+    },
+    {
+        "camera": "Camera 2",
+        "location": "Entrance Hall",
+        "time": "13-07-2025 17:31:43",
+        "video_path": "./static/saved_videos/Camera 2_20250713_173142.mp4"
+    },
+    {
+        "camera": "Camera 2",
+        "location": "Entrance Hall",
+        "time": "13-07-2025 17:33:42",
+        "video_path": "./static/saved_videos/Camera 2_20250713_173341.mp4"
+    },
+    {
+        "camera": "Camera 2",
+        "location": "Entrance Hall",
+        "time": "13-07-2025 17:34:28",
+        "video_path": "./static/saved_videos/Camera 2_20250713_173427.mp4"
+    },
+    {
+        "camera": "Camera 2",
+        "location": "Entrance Hall",
+        "time": "13-07-2025 17:35:10",
+        "video_path": "./static/saved_videos/Camera 2_20250713_173508.mp4"
+    },
+    {
+        "camera": "Camera 2",
+        "location": "Entrance Hall",
+        "time": "13-07-2025 17:36:19",
+        "video_path": "./static/saved_videos/Camera 2_20250713_173618.mp4"
+    },
+    {
+        "camera": "Camera 2",
+        "location": "Entrance Hall",
+        "time": "13-07-2025 17:37:37",
+        "video_path": "./static/saved_videos/Camera 2_20250713_173735.mp4"
+    },
+    {
+        "camera": "Camera 2",
+        "location": "Entrance Hall",
+        "time": "13-07-2025 17:42:47",
+        "video_path": "./static/saved_videos/Camera 2_20250713_174245.mp4"
+    },
+    {
+        "camera": "Camera 1",
+        "location": "Main Lab",
+        "time": "13-07-2025 17:50:31",
+        "video_path": "./static/saved_videos/Camera 1_20250713_175030.mp4"
+    },
+    {
+        "camera": "Camera 1",
+        "location": "Main Lab",
+        "time": "13-07-2025 17:56:13",
+        "video_path": "./static/saved_videos/Camera 1_20250713_175613.mp4"
+    },
+    {
+        "camera": "Camera 1",
+        "location": "Location_1",
+        "time": "13-07-2025 18:11:16",
+        "video_path": "./static/saved_videos/Camera 1_20250713_181115.mp4"
+    },
+    {
+        "camera": "Camera 2 IP",
+        "location": "Entrance Hall",
+        "time": "13-07-2025 22:22:55",
+        "video_path": "./static/saved_videos/Camera 2 IP_20250713_222252.mp4"
+    },
+    {
+        "camera": "Camera 2 IP",
+        "location": "Entrance Hall",
+        "time": "13-07-2025 22:25:48",
+        "video_path": "./static/saved_videos/Camera 2 IP_20250713_222543.mp4"
+    },
+    {
+        "camera": "Camera 2 IP",
+        "location": "Entrance Hall",
+        "time": "13-07-2025 22:28:16",
+        "video_path": "./static/saved_videos/Camera 2 IP_20250713_222811.mp4"
+    },
+    {
+        "camera": "Camera 2 IP",
+        "location": "Entrance Hall",
+        "time": "13-07-2025 22:30:08",
+        "video_path": "./static/saved_videos/Camera 2 IP_20250713_223006.mp4"
+    },
+    {
+        "camera": "Camera 1",
+        "location": "Location_1",
+        "time": "13-07-2025 22:30:43",
+        "video_path": "./static/saved_videos/Camera 1_20250713_223043.mp4"
+    },
+    {
+        "camera": "Camera 2 IP",
+        "location": "Entrance Hall",
+        "time": "13-07-2025 22:32:47",
+        "video_path": "./static/saved_videos/Camera 2 IP_20250713_223242.mp4"
+    },
+    {
+        "camera": "Camera 2 IP",
+        "location": "Entrance Hall",
+        "time": "13-07-2025 22:34:30",
+        "video_path": "./static/saved_videos/Camera 2 IP_20250713_223424.mp4"
+    },
+    {
+        "camera": "Camera 2 IP",
+        "location": "Entrance Hall",
+        "time": "13-07-2025 22:36:25",
+        "video_path": "./static/saved_videos/Camera 2 IP_20250713_223619.mp4"
+    },
+    {
+        "camera": "Camera 2 IP",
+        "location": "Entrance Hall",
+        "time": "14-07-2025 23:22:01",
+        "video_path": "./static/saved_videos/Camera 2 IP_20250714_232159.mp4"
+    },
+    {
+        "camera": "Camera 2 IP",
+        "location": "Entrance Hall",
+        "time": "14-07-2025 23:23:33",
+        "video_path": "./static/saved_videos/Camera 2 IP_20250714_232332.mp4"
+    },
+    {
+        "camera": "Camera 2 IP",
+        "location": "Entrance Hall",
+        "time": "14-07-2025 23:25:14",
+        "video_path": "./static/saved_videos/Camera 2 IP_20250714_232512.mp4"
+    },
+    {
+        "camera": "Camera 2 IP",
+        "location": "Entrance Hall",
+        "time": "14-07-2025 23:27:26",
+        "video_path": "./static/saved_videos/Camera 2 IP_20250714_232725.mp4"
+    },
+    {
+        "camera": "Camera 2 IP",
+        "location": "Entrance Hall",
+        "time": "14-07-2025 23:36:46",
+        "video_path": "./static/saved_videos/Camera 2 IP_20250714_233645.mp4"
+    },
+    {
+        "camera": "Camera 2 IP",
+        "location": "Entrance Hall",
+        "time": "15-07-2025 11:46:18",
+        "video_path": "./static/saved_videos/Camera 2 IP_20250715_114614.mp4"
+    },
+    {
+        "camera": "Camera 2 IP",
+        "location": "Entrance Hall",
+        "time": "15-07-2025 11:46:45",
+        "video_path": "./static/saved_videos/Camera 2 IP_20250715_114644.mp4"
+    },
+    {
+        "camera": "Camera 2 IP",
+        "location": "Entrance Hall",
+        "time": "15-07-2025 11:47:03",
+        "video_path": "./static/saved_videos/Camera 2 IP_20250715_114702.mp4"
+    },
+    {
+        "camera": "Camera 1",
+        "location": "Location_1",
+        "time": "15-07-2025 11:47:33",
+        "video_path": "./static/saved_videos/Camera 1_20250715_114733.mp4"
+    },
+    {
+        "camera": "Camera 2 IP",
+        "location": "Entrance Hall",
+        "time": "15-07-2025 11:49:26",
+        "video_path": "./static/saved_videos/Camera 2 IP_20250715_114921.mp4"
+    },
+    {
+        "camera": "Camera 2 IP",
+        "location": "Entrance Hall",
+        "time": "15-07-2025 11:55:14",
+        "video_path": "./static/saved_videos/Camera 2 IP_20250715_115512.mp4"
+    },
+    {
+        "camera": "Camera 1",
+        "location": "Location_1",
+        "time": "15-07-2025 11:55:28",
+        "video_path": "./static/saved_videos/Camera 1_20250715_115528.mp4"
+    },
+    {
+        "camera": "Camera 2 IP",
+        "location": "Entrance Hall",
+        "time": "15-07-2025 11:56:09",
+        "video_path": "./static/saved_videos/Camera 2 IP_20250715_115608.mp4"
+    },
+    {
+        "camera": "Camera 2 IP",
+        "location": "Entrance Hall",
+        "time": "15-07-2025 11:56:46",
+        "video_path": "./static/saved_videos/Camera 2 IP_20250715_115645.mp4"
+    },
+    {
+        "camera": "Camera 2 IP",
+        "location": "Entrance Hall",
+        "time": "15-07-2025 12:01:46",
+        "video_path": "./static/saved_videos/Camera 2 IP_20250715_120144.mp4"
+    },
+    {
+        "camera": "Camera 2 IP",
+        "location": "Entrance Hall",
+        "time": "15-07-2025 12:02:07",
+        "video_path": "./static/saved_videos/Camera 2 IP_20250715_120205.mp4"
+    },
+    {
+        "camera": "Camera 2 IP",
+        "location": "Entrance Hall",
+        "time": "15-07-2025 12:10:28",
+        "video_path": "./static/saved_videos/Camera 2 IP_20250715_121027.mp4"
+    },
+    {
+        "camera": "Camera 2 IP",
+        "location": "Entrance Hall",
+        "time": "15-07-2025 12:52:29",
+        "video_path": "./static/saved_videos/Camera 2 IP_20250715_125227.mp4"
+    },
+    {
+        "camera": "Camera 2 IP",
+        "location": "Entrance Hall",
+        "time": "15-07-2025 12:56:58",
+        "video_path": "./static/saved_videos/Camera 2 IP_20250715_125656.mp4"
+    },
+    {
+        "camera": "Camera 2 IP",
+        "location": "Entrance Hall",
+        "time": "15-07-2025 12:57:53",
+        "video_path": "./static/saved_videos/Camera 2 IP_20250715_125752.mp4"
+    },
+    {
+        "camera": "Camera 1",
+        "location": "Location_1",
+        "time": "15-07-2025 12:57:59",
+        "video_path": "./static/saved_videos/Camera 1_20250715_125759.mp4"
+    },
+    {
+        "camera": "Camera 1",
+        "location": "Location_1",
+        "time": "15-07-2025 12:58:32",
+        "video_path": "./static/saved_videos/Camera 1_20250715_125832.mp4"
+    },
+    {
+        "camera": "Camera 1",
+        "location": "Location_1",
+        "time": "15-07-2025 13:00:34",
+        "video_path": "./static/saved_videos/Camera 1_20250715_130034.mp4"
+    },
+    {
+        "camera": "Camera 2 IP",
+        "location": "Entrance Hall",
+        "time": "15-07-2025 13:01:51",
+        "video_path": "./static/saved_videos/Camera 2 IP_20250715_130150.mp4"
+    },
+    {
+        "camera": "Camera 2 IP",
+        "location": "Entrance Hall",
+        "time": "15-07-2025 13:02:17",
+        "video_path": "./static/saved_videos/Camera 2 IP_20250715_130215.mp4"
+    },
+    {
+        "camera": "Camera 1",
+        "location": "Location_1",
+        "time": "15-07-2025 13:03:05",
+        "video_path": "./static/saved_videos/Camera 1_20250715_130304.mp4"
+    },
+    {
+        "camera": "Camera 3 IP",
+        "location": "Corridor",
+        "time": "15-07-2025 17:18:19",
+        "video_path": "./static/saved_videos/Camera 3 IP_20250715_171817.mp4"
+    },
+    {
+        "camera": "Camera 3 IP",
+        "location": "Corridor",
+        "time": "15-07-2025 17:20:12",
+        "video_path": "./static/saved_videos/Camera 3 IP_20250715_172011.mp4"
+    },
+    {
+        "camera": "Camera 2 IP",
+        "location": "Entrance Hall",
+        "time": "15-07-2025 17:20:49",
+        "video_path": "./static/saved_videos/Camera 2 IP_20250715_172047.mp4"
+    },
+    {
+        "camera": "Camera 2 Browser",
+        "location": "Location_2",
+        "time": "15-07-2025 17:20:55",
+        "video_path": "./static/saved_videos/Camera 2 Browser_20250715_172053.mp4"
+    },
+    {
+        "camera": "Camera 2 Browser",
+        "location": "Location_2",
+        "time": "15-07-2025 17:32:21",
+        "video_path": "./static/saved_videos/Camera 2 Browser_20250715_173220.mp4"
+    },
+    {
+        "camera": "Camera 2 Browser",
+        "location": "Location_2",
+        "time": "15-07-2025 17:33:41",
+        "video_path": "./static/saved_videos/Camera 2 Browser_20250715_173338.mp4"
+    },
+    {
+        "camera": "Camera 3 IP",
+        "location": "Corridor",
+        "time": "15-07-2025 17:34:35",
+        "video_path": "./static/saved_videos/Camera 3 IP_20250715_173435.mp4"
+    },
+    {
+        "camera": "Camera 1",
+        "location": "Location_1",
+        "time": "15-07-2025 18:20:36",
+        "video_path": "./static/saved_videos/Camera 1_20250715_182035.mp4"
+    },
+    {
+        "camera": "Camera 4 IP",
+        "location": "Lab Area",
+        "time": "16-07-2025 10:29:42",
+        "video_path": "./static/saved_videos/Camera 4 IP_20250716_102940.mp4"
+    },
+    {
+        "camera": "Camera 3 IP",
+        "location": "Corridor",
+        "time": "16-07-2025 10:35:31",
+        "video_path": "./static/saved_videos/Camera 3 IP_20250716_103530.mp4"
+    },
+    {
+        "camera": "Camera 4 IP",
+        "location": "Lab Area",
+        "time": "16-07-2025 10:35:39",
+        "video_path": "./static/saved_videos/Camera 4 IP_20250716_103538.mp4"
+    },
+    {
+        "camera": "Camera 4 IP",
+        "location": "Lab Area",
+        "time": "16-07-2025 10:41:20",
+        "video_path": "./static/saved_videos/Camera 4 IP_20250716_104119.mp4"
+    },
+    {
+        "camera": "Camera 4 IP",
+        "location": "Lab Area",
+        "time": "16-07-2025 10:41:55",
+        "video_path": "./static/saved_videos/Camera 4 IP_20250716_104154.mp4"
+    },
+    {
+        "camera": "Camera 3 IP",
+        "location": "Corridor",
+        "time": "16-07-2025 10:42:08",
+        "video_path": "./static/saved_videos/Camera 3 IP_20250716_104207.mp4"
+    },
+    {
+        "camera": "Camera 4 IP",
+        "location": "Lab Area",
+        "time": "16-07-2025 10:42:49",
+        "video_path": "./static/saved_videos/Camera 4 IP_20250716_104247.mp4"
+    },
+    {
+        "camera": "Camera 3 IP",
+        "location": "Corridor",
+        "time": "16-07-2025 10:42:59",
+        "video_path": "./static/saved_videos/Camera 3 IP_20250716_104257.mp4"
+    },
+    {
+        "camera": "Camera 3 IP",
+        "location": "Corridor",
+        "time": "16-07-2025 10:43:59",
+        "video_path": "./static/saved_videos/Camera 3 IP_20250716_104357.mp4"
+    },
+    {
+        "camera": "Camera 4 IP",
+        "location": "Lab Area",
+        "time": "16-07-2025 10:44:27",
+        "video_path": "./static/saved_videos/Camera 4 IP_20250716_104425.mp4"
+    },
+    {
+        "camera": "Camera 3 IP",
+        "location": "Corridor",
+        "time": "16-07-2025 10:44:47",
+        "video_path": "./static/saved_videos/Camera 3 IP_20250716_104445.mp4"
+    },
+    {
+        "camera": "Camera 2 IP",
+        "location": "Entrance Hall",
+        "time": "16-07-2025 10:45:18",
+        "video_path": "./static/saved_videos/Camera 2 IP_20250716_104518.mp4"
+    },
+    {
+        "camera": "Camera 4 IP",
+        "location": "Lab Area",
+        "time": "16-07-2025 10:45:58",
+        "video_path": "./static/saved_videos/Camera 4 IP_20250716_104558.mp4"
+    },
+    {
+        "camera": "Camera 2 IP",
+        "location": "Entrance Hall",
+        "time": "16-07-2025 10:47:17",
+        "video_path": "./static/saved_videos/Camera 2 IP_20250716_104716.mp4"
+    },
+    {
+        "camera": "Camera 3 IP",
+        "location": "Corridor",
+        "time": "16-07-2025 10:47:26",
+        "video_path": "./static/saved_videos/Camera 3 IP_20250716_104724.mp4"
+    },
+    {
+        "camera": "Camera 1",
+        "location": "Location_1",
+        "time": "16-07-2025 11:01:40",
+        "video_path": "./static/saved_videos/Camera 1_20250716_110138.mp4"
+    },
+    {
+        "camera": "Camera 2 Browser",
+        "location": "Location_2",
+        "time": "16-07-2025 11:02:15",
+        "video_path": "./static/saved_videos/Camera 2 Browser_20250716_110212.mp4"
+    },
+    {
+        "camera": "Camera 2 Browser",
+        "location": "Location_2",
+        "time": "16-07-2025 11:04:02",
+        "video_path": "./static/saved_videos/Camera 2 Browser_20250716_110400.mp4"
+    },
+    {
+        "camera": "Camera 4 Browser",
+        "location": "Location_4",
+        "time": "16-07-2025 11:05:18",
+        "video_path": "./static/saved_videos/Camera 4 Browser_20250716_110516.mp4"
+    },
+    {
+        "camera": "Camera 4 Browser",
+        "location": "Location_4",
+        "time": "16-07-2025 11:06:06",
+        "video_path": "./static/saved_videos/Camera 4 Browser_20250716_110604.mp4"
+    },
+    {
+        "camera": "Camera 2 IP",
+        "location": "Entrance Hall",
+        "time": "16-07-2025 11:23:02",
+        "video_path": "./static/saved_videos/Camera 2 IP_20250716_112302.mp4"
+    },
+    {
+        "camera": "Camera 3 IP",
+        "location": "Corridor",
+        "time": "16-07-2025 12:01:19",
+        "video_path": "./static/saved_videos/Camera 3 IP_20250716_120119.mp4"
+    },
+    {
+        "camera": "Camera 2 IP",
+        "location": "Entrance Hall",
+        "time": "16-07-2025 12:01:24",
+        "video_path": "./static/saved_videos/Camera 2 IP_20250716_120124.mp4"
+    },
+    {
+        "camera": "Camera 2 Browser",
+        "location": "Location_2",
+        "time": "16-07-2025 12:10:27",
+        "video_path": "./static/saved_videos/Camera 2 Browser_20250716_121026.mp4"
+    },
+    {
+        "camera": "Camera 4 Browser",
+        "location": "Location_4",
+        "time": "16-07-2025 12:11:03",
+        "video_path": "./static/saved_videos/Camera 4 Browser_20250716_121102.mp4"
+    },
+    {
+        "camera": "Camera 4 IP",
+        "location": "Lab Area",
+        "time": "16-07-2025 12:13:24",
+        "video_path": "./static/saved_videos/Camera 4 IP_20250716_121322.mp4"
+    },
+    {
+        "camera": "Camera 4 IP",
+        "location": "Lab Area",
+        "time": "16-07-2025 12:15:02",
+        "video_path": "./static/saved_videos/Camera 4 IP_20250716_121500.mp4"
+    },
+    {
+        "camera": "Camera 2 IP",
+        "location": "Entrance Hall",
+        "time": "16-07-2025 12:15:06",
+        "video_path": "./static/saved_videos/Camera 2 IP_20250716_121504.mp4"
+    },
+    {
+        "camera": "Camera 3 IP",
+        "location": "Corridor",
+        "time": "16-07-2025 12:15:17",
+        "video_path": "./static/saved_videos/Camera 3 IP_20250716_121515.mp4"
+    },
+    {
+        "camera": "Camera 2 IP",
+        "location": "Entrance Hall",
+        "time": "16-07-2025 12:22:18",
+        "video_path": "./static/saved_videos/Camera 2 IP_20250716_122217.mp4"
+    },
+    {
+        "camera": "Camera 1",
+        "location": "Location_1",
+        "time": "16-07-2025 12:22:37",
+        "video_path": "./static/saved_videos/Camera 1_20250716_122237.mp4"
+    },
+    {
+        "camera": "Camera 3 IP",
+        "location": "Corridor",
+        "time": "16-07-2025 12:25:30",
+        "video_path": "./static/saved_videos/Camera 3 IP_20250716_122528.mp4"
+    },
+    {
+        "camera": "Camera 2 IP",
+        "location": "Entrance Hall",
+        "time": "17-07-2025 09:31:38",
+        "video_path": "./static/saved_videos/Camera 2 IP_20250717_093137.mp4"
+    },
+    {
+        "camera": "Camera 4 Browser",
+        "location": "Location_4",
+        "time": "17-07-2025 09:32:40",
+        "video_path": "./static/saved_videos/Camera 4 Browser_20250717_093240.mp4"
+    },
+    {
+        "camera": "Camera 3 IP",
+        "location": "Corridor",
+        "time": "17-07-2025 09:33:57",
+        "video_path": "./static/saved_videos/Camera 3 IP_20250717_093356.mp4"
+    },
+    {
+        "camera": "Camera 2 IP",
+        "location": "Entrance Hall",
+        "time": "17-07-2025 09:34:12",
+        "video_path": "./static/saved_videos/Camera 2 IP_20250717_093410.mp4"
+    },
+    {
+        "camera": "Camera 1",
+        "location": "Location_1",
+        "time": "17-07-2025 11:35:15",
+        "video_path": "./static/saved_videos/Camera 1_20250717_113515.mp4"
+    },
+    {
+        "camera": "Camera 1",
+        "location": "Location_1",
+        "time": "17-07-2025 11:37:47",
+        "video_path": "./static/saved_videos/Camera 1_20250717_113746.mp4"
+    },
+    {
+        "camera": "Camera 1",
+        "location": "Location_1",
+        "time": "17-07-2025 11:38:24",
+        "video_path": "./static/saved_videos/Camera 1_20250717_113823.mp4"
+    },
+    {
+        "camera": "Camera 1",
+        "location": "Location_1",
+        "time": "17-07-2025 11:38:50",
+        "video_path": "./static/saved_videos/Camera 1_20250717_113850.mp4"
+    },
+    {
+        "camera": "Camera 1",
+        "location": "Location_1",
+        "time": "17-07-2025 11:40:04",
+        "video_path": "./static/saved_videos/Camera 1_20250717_114004.mp4"
+    },
+    {
+        "camera": "Camera 1",
+        "location": "Location_1",
+        "time": "17-07-2025 11:40:33",
+        "video_path": "./static/saved_videos/Camera 1_20250717_114032.mp4"
+    },
+    {
+        "camera": "Camera 1",
+        "location": "Location_1",
+        "time": "17-07-2025 11:41:31",
+        "video_path": "./static/saved_videos/Camera 1_20250717_114131.mp4"
+    },
+    {
+        "camera": "Camera 1",
+        "location": "Location_1",
+        "time": "17-07-2025 11:41:51",
+        "video_path": "./static/saved_videos/Camera 1_20250717_114150.mp4"
+    },
+    {
+        "camera": "Camera 1",
+        "location": "Location_1",
+        "time": "17-07-2025 11:57:52",
+        "video_path": "./static/saved_videos/Camera 1_20250717_115752.mp4"
+    },
+    {
+        "camera": "Camera 1",
+        "location": "Location_1",
+        "time": "17-07-2025 11:59:10",
+        "video_path": "./static/saved_videos/Camera 1_20250717_115910.mp4"
+    },
+    {
+        "camera": "Camera 4 IP",
+        "location": "Lab Area",
+        "time": "17-07-2025 12:00:28",
+        "video_path": "./static/saved_videos/Camera 4 IP_20250717_120027.mp4"
+    },
+    {
+        "camera": "Camera 4 IP",
+        "location": "Lab Area",
+        "time": "17-07-2025 12:01:30",
+        "video_path": "./static/saved_videos/Camera 4 IP_20250717_120130.mp4"
+    },
+    {
+        "camera": "Camera 3 IP",
+        "location": "Corridor",
+        "time": "17-07-2025 12:01:32",
+        "video_path": "./static/saved_videos/Camera 3 IP_20250717_120132.mp4"
+    },
+    {
+        "camera": "Camera 2 IP",
+        "location": "Entrance Hall",
+        "time": "17-07-2025 12:01:42",
+        "video_path": "./static/saved_videos/Camera 2 IP_20250717_120141.mp4"
+    },
+    {
+        "camera": "Camera 4 IP",
+        "location": "Lab Area",
+        "time": "17-07-2025 12:03:14",
+        "video_path": "./static/saved_videos/Camera 4 IP_20250717_120313.mp4"
+    },
+    {
+        "camera": "Camera 1",
+        "location": "Location_1",
+        "time": "17-07-2025 12:03:32",
+        "video_path": "./static/saved_videos/Camera 1_20250717_120332.mp4"
+    },
+    {
+        "camera": "Camera 1",
+        "location": "Location_1",
+        "time": "17-07-2025 14:20:04",
+        "video_path": "./static/saved_videos/Camera 1_20250717_142004.mp4"
+    },
+    {
+        "camera": "Camera 1",
+        "location": "Location_1",
+        "time": "17-07-2025 14:20:34",
+        "video_path": "./static/saved_videos/Camera 1_20250717_142034.mp4"
+    },
+    {
+        "camera": "Camera 1",
+        "location": "Location_1",
+        "time": "17-07-2025 14:22:25",
+        "video_path": "./static/saved_videos/Camera 1_20250717_142225.mp4"
+    },
+    {
+        "camera": "Camera 1",
+        "location": "Location_1",
+        "time": "17-07-2025 15:25:10",
+        "video_path": "./static/saved_videos/Camera 1_20250717_152510.mp4"
+    },
+    {
+        "camera": "Camera 1",
+        "location": "Location_1",
+        "time": "17-07-2025 15:25:48",
+        "video_path": "./static/saved_videos/Camera 1_20250717_152548.mp4"
+    },
+    {
+        "camera": "Camera 1",
+        "location": "Location_1",
+        "time": "17-07-2025 15:26:17",
+        "video_path": "./static/saved_videos/Camera 1_20250717_152617.mp4"
+    },
+    {
+        "camera": "Camera 2 Browser",
+        "location": "Location_2",
+        "time": "17-07-2025 15:45:25",
+        "video_path": "./static/saved_videos/Camera 2 Browser_20250717_154522.mp4"
+    },
+    {
+        "camera": "Camera 2 Browser",
+        "location": "Location_2",
+        "time": "17-07-2025 15:46:13",
+        "video_path": "./static/saved_videos/Camera 2 Browser_20250717_154611.mp4"
+    },
+    {
+        "camera": "Camera 3 IP",
+        "location": "Corridor",
+        "time": "09-08-2025 16:12:47",
+        "video_path": "./static/saved_videos/Camera 3 IP_20250809_161246.mp4"
+    },
+    {
+        "camera": "Camera 1",
+        "location": "Location_1",
+        "time": "09-08-2025 16:13:43",
+        "video_path": "./static/saved_videos/Camera 1_20250809_161342.mp4"
+    },
+    {
+        "camera": "Camera 4 IP",
+        "location": "Lab Area",
+        "time": "09-08-2025 16:14:05",
+        "video_path": "./static/saved_videos/Camera 4 IP_20250809_161402.mp4"
+    }
+]

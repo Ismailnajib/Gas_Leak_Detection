@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <title>Electrochip</title>
+
+  <!-- slider stylesheet -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css" />
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="{{ url_for('static', path='css/bootstrap.css') }}">
+
+  <!-- Custom styles -->
+  <link rel="stylesheet" href="{{ url_for('static', path='css/style.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', path='css/responsive.css') }}">
+
+  <style>
+    /* Fixed Header style - matching other pages */
+    .header_section {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 53px;
+      background-color: #4b208c;
+      z-index: 1000;
+      padding: 0;
+    }
+    .header_section .container {
+      max-width: 100% !important;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+    .header_section .navbar {
+      padding-top: 0;
+      padding-bottom: 0;
+      height: 53px;
+    }
+    .header_section .navbar-brand span {
+      color: white;
+      font-size: 20px;
+      font-weight: bold;
+    }
+    .header_section .navbar-toggler {
+      border-color: rgba(255,255,255,.1);
+    }
+    .header_section .navbar-toggler-icon {
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 0.7%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    }
+    .header_section .nav-link {
+      color: white !important;
+    }
+    /* Push page content below fixed header */
+    .hero_area {
+      margin-top: 53px;
+    }
+    .service_section{
+      min-height: 90vh;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <div class="hero_area">
+    <!-- updated header section -->
+    <header class="header_section">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg custom_nav-container">
+          <a class="navbar-brand" href="{{ url_for('home') }}">
+            <span>GLD System</span>
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
+              <ul class="navbar-nav">
+                <!-- Add nav links here if needed -->
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- end updated header section -->
+
+    <!-- service section -->
+    <section class="service_section layout_padding">
+      <div class="container">
+        <div class="heading_container">
+          <h2>
+            Our Services
+          </h2>
+          <img src="{{ url_for('static', path='images/plug.png') }}" alt="">
+        </div>
+
+        <div class="service_container">
+          <div class="box">
+            <a href="{{ url_for('gas_detection') }}">
+              <div class="img-box">
+                <img src="{{ url_for('static', path='images/gas-leak.png') }}" class="img1" alt="">
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Gas detection system
+                </h5>
+                <p>
+                  Advanced gas detection for real-time protection from invisible, odorless gases. 
+                </p>
+              </div>
+            </a>
+          </div>
+
+          <div class="box">
+            <div class="img-box">
+              <img src="{{ url_for('static', path='images/s5.png') }}" class="img1" alt="">
+            </div>
+            <div class="detail-box">
+              <h5>
+                Personal Protective Equipment
+              </h5>
+              <p>
+                A smart detection system that ensures employees are wearing required protective equipment.
+              </p>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="img-box">
+              <img src="{{ url_for('static', path='images/fire.png') }}" class="img1" alt="">
+            </div>
+            <div class="detail-box">
+              <h5>
+                Fire Detection System
+              </h5>
+              <p>
+                 Fire detection systems designed to sense smoke, heat, or flames quickly and effectively.
+              </p>
+            </div>
+          </div>
+
+        </div>
+        <div class="btn-box">
+          <a href="">
+            Read More
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- end service section -->
+
+    <!-- info section -->
+
+    <section class="info_section layout_padding">
+      <div class="container">
+        <div class="info_contact">
+          <div class="row">
+            <div class="col-md-4">
+              <a href="">
+                <img src="{{ url_for('static', path='images/location-white.png') }}" alt="">
+                <span>
+                  Passages of Lorem Ipsum available
+                </span>
+              </a>
+            </div>
+            <div class="col-md-4">
+              <a href="">
+                <img src="{{ url_for('static', path='images/telephone-white.png') }}" alt="">
+                <span>
+                  Call : +012334567890
+                </span>
+              </a>
+            </div>
+            <div class="col-md-4">
+              <a href="">
+                <img src="{{ url_for('static', path='images/envelope-white.png') }}" alt="">
+                <span>
+                  demo@gmail.com
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-8 col-lg-9">
+            <div class="info_form">
+              <form action="">
+                <input type="text" placeholder="Enter your email">
+                <button>
+                  subscribe
+                </button>
+              </form>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-3">
+            <div class="info_social">
+              <div>
+                <a href="">
+                  <img src="{{ url_for('static', path='images/fb.png') }}" alt="">
+                </a>
+              </div>
+              <div>
+                <a href="">
+                  <img src="{{ url_for('static', path='images/twitter.png') }}" alt="">
+                </a>
+              </div>
+              <div>
+                <a href="">
+                  <img src="{{ url_for('static', path='images/linkedin.png') }}" alt="">
+                </a>
+              </div>
+              <div>
+                <a href="">
+                  <img src="{{ url_for('static', path='images/instagram.png') }}" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- end info section -->
+
+    <!-- footer section -->
+    <footer class="container-fluid footer_section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7 col-md-9 mx-auto">
+            <p>
+              &copy; 2025 All Rights Reserved By
+              <a href="https://html.design/">INNOVX</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer section -->
+
+  </div>
+
+  <script src="{{ url_for('static', path='js/jquery-3.4.1.min.js') }}"></script>
+  <script src="{{ url_for('static', path='js/bootstrap.js') }}"></script>
+
+</body>
+</html>

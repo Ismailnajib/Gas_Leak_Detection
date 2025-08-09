@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Manage Cameras - GLD System</title>
+
+  <link rel="stylesheet" href="/static/css/bootstrap.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap" rel="stylesheet" />
+
+  <style>
+    body {
+      margin: 0;
+      font-family: "Poppins", sans-serif;
+      background-color: #f8f9fa;
+    }
+
+    .header_section {
+      background-color: #4b208c;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      height: 53px;
+      z-index: 1001;
+    }
+
+    .navbar-brand span {
+      color: #fff;
+      font-weight: bold;
+    }
+
+    .sidebar {
+      height: 100%;
+      width: 220px;
+      position: fixed;
+      top: 53px;
+      left: 0;
+      background-color: #4b208c;
+      padding-top: 20px;
+      z-index: 1000;
+    }
+
+    .sidebar a {
+      padding: 15px 20px;
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      font-size: 15px;
+      color: #ddd;
+      transition: 0.3s;
+    }
+
+    .sidebar a i {
+      margin-right: 12px;
+      font-size: 18px;
+      min-width: 20px;
+      text-align: center;
+      color: #ccc;
+    }
+
+    .sidebar a:hover,
+    .sidebar a.active {
+      background-color: #343a40;
+      color: #fff;
+    }
+
+    .main-content {
+      margin-left: 220px;
+      padding: 80px 20px 20px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      background: white;
+      padding: 2rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+
+    .camera-list {
+      margin-top: 2rem;
+    }
+
+    .camera-item {
+      padding: 1rem;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      margin-bottom: 1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    @media (max-width: 768px) {
+      .sidebar {
+        width: 0;
+        overflow-x: hidden;
+      }
+      .main-content {
+        margin-left: 0;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header class="header_section">
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg custom_nav-container">
+        <a class="navbar-brand" href="/home">
+          <span>GLD System</span>
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Sidebar -->
+  <div class="sidebar" id="sidebar">
+    <a href="/gas_detection"><i class="fa fa-video-camera"></i> Camera Feed</a>
+    <a href="/camera_manage" class="active"><i class="fa fa-cogs"></i> Manage Cameras</a>
+    <a href="/history"><i class="fa fa-history"></i> History</a>
+  </div>
+
+  <!-- Main Content -->
+  <div class="main-content">
+    <div class="container">
+      <h1>Manage Cameras</h1>
+
+      <!-- Add Camera Form -->
+      <div>
+        <h4>Add New Camera</h4>
+        <form method="POST" action="/add_camera">
+          <div class="mb-3">
+            <label for="cameraName" class="form-label">Camera Name</label>
+            <input type="text" id="cameraName" name="name" class="form-control" placeholder="Enter camera name" required>
+          </div>
+          <div class="mb-3">
+            <label for="cameraUrl" class="form-label">Camera URL</label>
+            <input type="url" id="cameraUrl" name="url" class="form-control" placeholder="Enter camera URL or stream address" required>
+          </div>
+          <button type="submit" class="btn btn-success">Add Camera</button>
+        </form>
+      </div>
+
+      <!-- Existing Cameras List -->
+      <div class="camera-list">
+        <h4>Existing Cameras</h4>
+        {% if cameras %}
+          {% for camera in cameras %}
+            <div class="camera-item">
+              <div>
+                <strong>{{ camera.name }}</strong><br>
+                <small class="text-muted">{{ camera.url }}</small>
+              </div>
+              <form method="POST" action="/remove_camera/{{ camera.id }}" onsubmit="return confirm('Are you sure you want to remove this camera?');">
+                <button type="submit" class="btn btn-danger btn-sm">Remove</button>
+              </form>
+            </div>
+          {% endfor %}
+        {% else %}
+          <p>No cameras added yet.</p>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
