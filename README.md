@@ -48,7 +48,7 @@ Pour l'entraînement du modèle de détection des fuites de gaz, nous avons util
 Après l'entraînement initial du modèle avec un jeu de données simulé composé de plus de 50k images représentant des fumées artificielles, nous avons procédé à une phase de finetuning à l'aide de données réelles. Cette deuxième base de données contient plus de 7k images capturées à l’aide de caméras thermiques OGI (Optical Gas Imaging), dans des conditions industrielles réelles. Chaque image a été annotée manuellement afin d'assurer une qualité d’apprentissage optimale. Le finetuning du modèle a été réalisé sur 350 époques, ce qui a permis d’adapter efficacement le modèle pré-entraîné aux particularités visuelles des fuites de gaz réelles, tout en améliorant sa robustesse et sa capacité de généralisation.
 
 
-![Screenshot (1)](https://github.com/EmbeddiaInnovX/ComputerVision_Based_AQS/blob/main/YOLOv11n_Train_Plots.png)  
+![Screenshot (1)](https://github.com/Ismailnajib/Gas_Leak_Detection/blob/main/YOLOv11n_Train_Plots%20(1).png)  
 
 ### Résultats finaux du modèle (YOLOv11n)
 
