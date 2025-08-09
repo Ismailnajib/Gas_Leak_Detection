@@ -43,7 +43,7 @@ Ce projet permet de détecter les fuites de gaz en utilisant des algorithmes de 
 
 Pour l'entraînement du modèle de détection des fuites de gaz, nous avons utilisé le modèle pré-entraîné YOLOv11n, reconnu pour son efficacité en termes de précision et de performances en temps réel. Dans un premier temps, l'entraînement a été effectué à l'aide d'un jeu de données simulé représentant des fumées, permettant au modèle d'apprendre les premières caractéristiques visuelles associées aux fuites. Ensuite, une phase de finetuning a été réalisée en utilisant un jeu de données réel composé d'images capturées par des caméras thermiques de type OGI (Optical Gas Imaging). Cette approche en deux étapes permet d'améliorer la robustesse du modèle en combinant des données synthétiques et réelles, tout en optimisant ses performances pour la détection en conditions réelles.
 
-![Screenshot (1)](https://github.com/EmbeddiaInnovX/ComputerVision_Based_AQS/blob/main/Train_Arch.jpg)  
+![Screenshot (1)](https://github.com/Ismailnajib/Gas_Leak_Detection/blob/main/Train_Arch%20(1).jpg)  
 
 Après l'entraînement initial du modèle avec un jeu de données simulé composé de plus de 50k images représentant des fumées artificielles, nous avons procédé à une phase de finetuning à l'aide de données réelles. Cette deuxième base de données contient plus de 7k images capturées à l’aide de caméras thermiques OGI (Optical Gas Imaging), dans des conditions industrielles réelles. Chaque image a été annotée manuellement afin d'assurer une qualité d’apprentissage optimale. Le finetuning du modèle a été réalisé sur 350 époques, ce qui a permis d’adapter efficacement le modèle pré-entraîné aux particularités visuelles des fuites de gaz réelles, tout en améliorant sa robustesse et sa capacité de généralisation.
 
@@ -61,7 +61,7 @@ Après l'entraînement initial du modèle avec un jeu de données simulé compos
 
 Pour le déploiement, la plateforme reçoit le flux vidéo en continu, le transmet au modèle YOLO v11n, lequel traite chaque image en temps réel afin de détecter la présence éventuelle d’une fuite de gaz.
 
-![Screenshot (1)](https://github.com/EmbeddiaInnovX/ComputerVision_Based_AQS/blob/main/Flowchart.jpg)  
+![Screenshot (1)](https://github.com/Ismailnajib/Gas_Leak_Detection/blob/main/Flowchart%20(1).jpg)  
 
 
 ## ⚙️ Installation
